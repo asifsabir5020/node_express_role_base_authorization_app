@@ -1,5 +1,5 @@
-# Node Authentication App
-This is a boilerplate for auth functionality, covering authentication only.
+# Node Express Role Base Authorization App
+This is a boilerplate for auth functionality, covering authentication and authorization.
 It contains a complete sample CRUD operation.
 
 `Note: Node >= 16`
