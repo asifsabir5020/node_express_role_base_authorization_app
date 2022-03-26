@@ -19,6 +19,9 @@ It contains a complete sample CRUD operation.
 # Roles Short Description
 
 In User Model we set three roles `admin` `author` `reader`
+
 Only `admin` authorized to `{{base_url}}/users/all`
+
 `author` can `create`, `update` and `delete`, the `book`
+
 `admin` can also delete a `book`
