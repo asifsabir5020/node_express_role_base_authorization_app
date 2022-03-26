@@ -39,3 +39,11 @@ export const me = async (req, res) => {
     data: user,
   });
 };
+
+export const findAllUsers = async (req, res) => {
+  const users = await User.find();
+  res.status(StatusCodes.OK).json({
+    success: true,
+    data: users,
+  });
+};
