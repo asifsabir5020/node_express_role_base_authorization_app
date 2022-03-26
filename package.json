@@ -1,0 +1,36 @@
+{
+  "name": "node_auth_app",
+  "version": "1.0.0",
+  "description": "this is a boilerplate for auth functionality, covering authentication and authorization",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server"
+  },
+  "keywords": [
+    "node",
+    "auth",
+    "authentication",
+    "authorization"
+  ],
+  "author": "Muhammad Asif Sabir",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "http-status-code": "^2.1.0",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.8",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
