@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "this is a boilerplate for auth functionality, covering authentication and authorization",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "nodemon src/server"
+    "dev": "nodemon --exec babel-node src/server"
   },
   "keywords": [
     "node",
@@ -27,6 +26,9 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
   },
