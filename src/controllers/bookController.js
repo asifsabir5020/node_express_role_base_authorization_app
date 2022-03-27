@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
 import { Book } from "../models/book.js";
-import { NotFoundError } from "../utils/errors.js";
+import { NotFoundError } from "../utils/errors";
 
 export const findAll = async (req, res) => {
   const books = await Book.find();

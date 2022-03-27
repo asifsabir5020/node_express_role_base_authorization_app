@@ -5,8 +5,8 @@ import {
   update,
   findOne,
   remove,
-} from "../controllers/bookController.js";
-import { authenticate, authorize } from "../middlewares/auth.js";
+} from "../controllers/bookController";
+import { authenticate, authorize } from "../middlewares/auth";
 const bookRouter = express.Router();
 
 bookRouter

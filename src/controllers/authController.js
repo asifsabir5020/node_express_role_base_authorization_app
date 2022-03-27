@@ -1,6 +1,6 @@
 import { StatusCodes } from "http-status-codes";
-import { User } from "../models/user.js";
-import { NotFoundError, UnAuthenticatedError } from "../utils/errors.js";
+import { User } from "../models/user";
+import { NotFoundError, UnAuthenticatedError } from "../utils/errors";
 
 export const register = async (req, res) => {
   const user = await User.create(req.body);

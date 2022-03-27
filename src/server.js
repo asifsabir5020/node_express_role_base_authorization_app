@@ -4,11 +4,11 @@ import dotEnv from 'dotenv';
 dotEnv.config();
 import morgan from "morgan";
 import 'express-async-errors';
-import { connectDB } from "./db/connection.js";
-import { errorHandler } from "./middlewares/errors.js";
-import { bookRouter } from './routers/book.js';
-import { authRouter } from "./routers/auth.js";
-import { NotFoundError } from "./utils/errors.js";
+import { connectDB } from "./db/connection";
+import { errorHandler } from "./middlewares/errors";
+import { bookRouter } from './routers/book';
+import { authRouter } from "./routers/auth";
+import { NotFoundError } from "./utils/errors";
 
 // as this is helpful in development
 if(process.env.NODE_ENV === 'development'){
