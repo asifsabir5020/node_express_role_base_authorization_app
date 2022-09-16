@@ -4,7 +4,7 @@
   "description": "this is a boilerplate for auth functionality, covering authentication and authorization",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server"
+    "start": "nodemon --exec babel-node src/server"
   },
   "keywords": [
     "node",
